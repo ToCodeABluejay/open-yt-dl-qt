@@ -104,7 +104,7 @@
           <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This will fetch the audio only if it's available. Note that not all sites are supported.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;By default, a special format that YouTube uses (DASH m4a) will be used. If you want it to be a regular m4a that every media player can play, ffmpeg should be installed or in the application directory for Windows users.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
          </property>
          <property name="text">
-          <string>Fetch audio only (only works in some cases)</string>
+          <string>Fetch audio only</string>
          </property>
         </widget>
        </item>
