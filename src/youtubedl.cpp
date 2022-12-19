@@ -14,9 +14,9 @@
 YoutubeDL::YoutubeDL()
 {
     #ifdef Q_OS_WIN
-    this->program = QApplication::applicationDirPath() + "/youtube-dl.exe";
+    this->program = QApplication::applicationDirPath() + "/yt-dlp.exe";
     #else
-    this->program = "youtube-dl"; // assuming it is in PATH on other platforms
+    this->program = "yt-dlp"; // assuming it is in PATH on other platforms
     #endif
     QObject *parent = QApplication::instance();
     this->ytdl = new QProcess(parent);
