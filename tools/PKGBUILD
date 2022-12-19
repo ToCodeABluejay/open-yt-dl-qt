@@ -13,6 +13,7 @@ makedepends=('git' 'make')
 optdepends=('ffmpeg: for some youtube-dl functionality')
 provides=('open-yt-dl-qt')
 source=("git+https://github.com/ToCodeABluejay/open-yt-dl-qt.git")
+conflicts=('youtube-dl-qt', 'youtube-dl-qt-git')
 md5sums=('SKIP')
 
 pkgver() {
