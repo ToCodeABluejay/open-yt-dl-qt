@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-Simple QT-frontend for [youtube-dl](https://rg3.github.io/youtube-dl/).
+Simple QT-frontend for [yt-dlp](https://github.com/yt-dlp/yt-dlp).
 
 youtube-dl is able to download lots of videos from streaming sites, not only from YouTube.
 See [supported sites](https://rg3.github.io/youtube-dl/supportedsites.html).
