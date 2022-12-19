@@ -6,13 +6,13 @@ pkgver=0.7
 pkgrel=1
 pkgdesc="Open video downloader for a variety of popular websites"
 arch=('any')
-url="https://github.com/ToCodeABluejay/youtube-dl-qt"
+url="https://github.com/ToCodeABluejay/open-yt-dl-qt"
 license=('GPL3')
 depends=('qt5-base' 'yt-dlp' 'hicolor-icon-theme')
 makedepends=('git' 'make')
 optdepends=('ffmpeg: for some youtube-dl functionality')
 provides=('open-yt-dl-qt')
-source=("git+https://github.com/ToCodeABluejay/youtube-dl-qt.git")
+source=("git+https://github.com/ToCodeABluejay/open-yt-dl-qt.git")
 md5sums=('SKIP')
 
 pkgver() {
