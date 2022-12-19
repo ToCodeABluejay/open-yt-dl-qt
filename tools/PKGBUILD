@@ -1,17 +1,17 @@
 # Maintainer: Gabriel Bauer <gabeb1277@gmail.com>
 
-pkgname=youtube-dl-qt-git
-_gitname=youtube-dl-qt
-pkgver=82.g5e87881
+pkgname=open-yt-dl-qt-git
+_gitname=open-yt-dl-qt
+pkgver=0.7
 pkgrel=1
-pkgdesc="Qt frontend for youtube-dl ported to yt-dlp"
+pkgdesc="Open video downloader for a variety of popular websites"
 arch=('any')
 url="https://github.com/ToCodeABluejay/youtube-dl-qt"
 license=('GPL3')
-depends=('qt5-base' 'youtube-dl' 'hicolor-icon-theme')
+depends=('qt5-base' 'yt-dlp' 'hicolor-icon-theme')
 makedepends=('git' 'make')
 optdepends=('ffmpeg: for some youtube-dl functionality')
-provides=('youtube-dl-qt')
+provides=('open-yt-dl-qt')
 source=("git+https://github.com/ToCodeABluejay/youtube-dl-qt.git")
 md5sums=('SKIP')
 
