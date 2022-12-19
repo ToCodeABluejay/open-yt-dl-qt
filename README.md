@@ -1,4 +1,4 @@
-# youtube-dl-qt
+# Youtube Downloader
 
 [![License](https://img.shields.io/badge/License-GPLv3-red.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
@@ -22,7 +22,7 @@ A portable version can be found in the 7zip archive `youtube-dl-qt-windows`.
 ### GNU/Linux
 
 * Qt5
-* youtube-dl
+* yt-dlp
 
 Both are available in most repositories.
 
@@ -33,8 +33,8 @@ The packages you need to install are:
 libqt5core5a
 libqt5gui5
 libqt5widgets5
-youtube-dl
-ffmpeg (optional) / libav for Debian
+yt-dlp
+ffmpeg (recommended) / libav for Debian
 ```
 For building:
 ```
@@ -49,8 +49,8 @@ check out their [installation instructions](https://github.com/rg3/youtube-dl#in
 Packages needed:
 ```
 qt5-base
-youtube-dl
-ffmpeg (optional)
+yt-dlp
+ffmpeg (recommended)
 ```
 
 I could be missing one. If this is the case, report an issue.
@@ -59,11 +59,11 @@ I could be missing one. If this is the case, report an issue.
 
 First, clone the git repository.
 
-`clone git@github.com:ToCodeABluejay/youtube-dl-qt.git`
+`clone git@github.com:ToCodeABluejay/open-yt-dl-qt.git`
 
 Go into the directory:
 
-`cd youtube-dl-qt`
+`cd open-yt-dl-qt`
 
 Run:
 
@@ -80,7 +80,7 @@ The executable should be named `youtube-dl-qt`.
 
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-youtube-dl-qt is Free Software: You can use, study share and improve it at your
+open-yt-dl-qt is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
